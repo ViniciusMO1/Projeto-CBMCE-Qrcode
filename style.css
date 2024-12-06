@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+:root{
+  --font1: sans-serif, Tahoma, verdana;
+}
+
+header {
+  background-image: url(../Projeto-CBMCE---Qrcode/Captura\ de\ tela\ 2024-12-05\ 120238.png);
+  background-repeat: no-repeat;
+  background-color: rgb(60,178,127);
+}
+h1{
+  padding: 100px ;
+}
+header> p{
+
+}
+section >h1{
+  text-align: top;
+  background-repeat: no-repeat;
+}
+section > p{
+  background-image: url(../Projeto-CBMCE---Qrcode/qr-code.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  text-align: center;
+ 
+  padding: 100px;
+}
+footer{
+  background-color: black;
+  color: white;
+  font-family: var(--font1);
+  text-align: center;
+  padding: 5px;
+  
+}
